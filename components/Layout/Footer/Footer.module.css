@@ -1,0 +1,11 @@
+.footerBackground {
+    background: url(../../../public/footer-park.svg) center;
+    height: 823px;
+}
+
+@media only screen and (max-width: 393px) {
+    .footerBackground {
+        height: 567px;
+        background: url(../../../public/footer-park-mobile.svg) bottom no-repeat;
+    }
+}

@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.primary-button-sm {
+  position: relative;
+  align-items: center;
+  border: 0px;
+  border-radius: 16px;
+  box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
+  cursor: pointer;
+  display: inline-flex;
+  /* font-family: inherit; */
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: background-color 0.2s, opacity 0.2s;
+  height: 32px;
+  padding: 0px 16px;
+  box-shadow: none;
+}
+
+.primary-button-sm:active,
+.primary-button-sm:hover {
+  opacity: 0.85;
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.react-multi-carousel-track {
+  gap: 20px;
+  padding-bottom: 46px !important;
+  background-color: transparent !important;
+}
+
+.react-multi-carousel-dot--active button {
+  background: #F44A51 !important;
+  border: none !important;
+}
+
+.react-multi-carousel-dot button {
+  border: none !important;
+  background: #FFDBDD;
+  height: 8px;
+  width: 8px;
+}
+
+.carousel-item-padding-40-px {
+  padding-left: 20px;
+}
+
+
+.resize div {
+  /* background-color: #F44A51; */
+  height: 28px !important;
+  border-bottom: 1px solid #E6E3EA;
+}
+
+::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+.swiper-slide {
+  width: 320px !important;
+}
+
+.swiper {
+  width: 100vw;
+}
+
+.MuiDrawer-paper {
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+}

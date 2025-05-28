@@ -1,0 +1,28 @@
+{
+  "name": "nft",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/base": "^5.0.0-beta.40",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "next": "14.2.6",
+    "re-resizable": "^6.9.17",
+    "react": "^18",
+    "react-countdown": "^2.3.6",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18",
+    "react-multi-carousel": "^2.8.5",
+    "react-resizable": "^3.0.5",
+    "react-resizable-layout": "^0.7.2",
+    "swiper": "^11.1.10"
+  }
+}
